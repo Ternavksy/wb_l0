@@ -1,4 +1,4 @@
-# **Сервис поиска заказов (WB_L0)**
+# **WB_L0**
 
 **Проект** для поиска заказов, включающий Go-бэкенд (Kafka, PostgreSQL, кэш) и мобильное приложение на Flutter.
 
@@ -35,23 +35,25 @@
 
 
 2. Настройка бэкенда:
-cd backend
-go mod tidy
-docker-compose up -d
-psql -U postgres -f schema.sql
-go run main.go
+    ```bash
+    cd backend
+    go mod tidy
+    docker-compose up -d
+    psql -U postgres -f schema.sql
+    go run main.go
 
 
 3. Настройка мобильного приложения:
-cd mobile
-flutter pub get
-flutter run
+    ```bash
+    cd mobile
+    flutter pub get
+    flutter run
 
 
 
 ## **Демо-видео**
 
-- Демо бэкенда (videos/backend.mp4)
+- Демо бэкенда (videos/backend.mp4). Также ниже прикрепил ссылку на гугл диск.
 - Демо мобильного приложения (videos/mobile.mp4)
 
 ## **API**
@@ -63,3 +65,6 @@ flutter run
 ## **Примечания**
 
 Для эмулятора Android используйте http://10.0.2.2:8080, для физического устройства — IP в локальной сети (например, http://192.168.1.33:8080).
+
+## **Видео демонстрации работы**
+- https://drive.google.com/drive/folders/1Q6C89I0aNOo2JXgQ3J6jGi3VEsMIb3qO?hl=ru
