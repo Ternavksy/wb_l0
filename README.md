@@ -47,8 +47,9 @@ flutter run
 
 Демо-видео
 
-Демо бэкенда (videos/backend)
+Демо бэкенда (videos/backend, также можно посмотреть в гугл-диске)
 Демо мобильного приложения (videos/mobile)
+гугл диск: https://drive.google.com/drive/folders/1Q6C89I0aNOo2JXgQ3J6jGi3VEsMIb3qO?usp=drive_link
 
 API
 
